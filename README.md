@@ -16,4 +16,6 @@ Example2: geoseq 5 1.4 5
 5 7 9 13 19
 
 
+geoseqr: same as above but will repeat identical
+numbers.
 ```
