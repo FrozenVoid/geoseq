@@ -18,4 +18,5 @@ Example2: geoseq 5 1.4 5
 
 geoseqr: same as above but will repeat identical
 numbers.
+geoseqf: same as above with double float output
 ```
