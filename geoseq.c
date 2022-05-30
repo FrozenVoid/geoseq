@@ -9,6 +9,6 @@ f96 mult=strtold(argv[2],NULL);
 char* sep=argc==5?argv[4]:"\n";
 uint64_t count=strtoull(argv[3],NULL,10);
 printf("%.0Lf",i);
-for(uint64_t l=1;l<count;l++){
-i*=mult;printf("%s",sep);printf("%.0Lf",i);}
+for(uint64_t k=1;k<count;k++){
+i*=mult;printf("%s%.0Lf",sep,i);}
 return 0;}
